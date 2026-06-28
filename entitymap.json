@@ -1,0 +1,547 @@
+{
+  "version": "1.0",
+  "schema": "https://entitymap.org/spec/v1.0",
+  "publisher": {
+    "name": "Back2New",
+    "url": "https://www.back2newcarpetcleaning.co.uk"
+  },
+  "generated": "2026-06-28T18:52:02Z",
+  "verificationStatus": "self-declared",
+  "entities": [
+    {
+      "entityId": "e_001",
+      "@type": "Organization",
+      "name": "Back2New",
+      "description": "A professional family-run carpet, upholstery and mattress cleaning business based in the centre of Glasgow, providing domestic and commercial cleaning services across Glasgow, Stirling and surrounding areas.",
+      "status": "active",
+      "hasChunks": [
+        {
+          "chunkId": "c_0001",
+          "text": "Back2New are a professional family run carpet cleaning business based in the centre of Glasgow. We provide both an efficient Commercial cleaning service and domestic service. Regardless of where we are working we look to provide the highest level of Customer satisfaction providing an expert service, providing value and excellent results.",
+          "sourceUrl": "https://www.back2newcarpetcleaning.co.uk/",
+          "pageTitle": "Back2New - Carpet / Upholstery Cleaning Glasgow",
+          "publisher": "Back2New",
+          "retrieved": "2026-06-28T18:52:02Z",
+          "contentType": "definition",
+          "audienceType": "general"
+        }
+      ],
+      "relations": [
+        {
+          "predicate": "OFFERS",
+          "targetName": "Carpet cleaning",
+          "targetId": "e_002"
+        },
+        {
+          "predicate": "OFFERS",
+          "targetName": "Sofa and chair cleaning",
+          "targetId": "e_003"
+        },
+        {
+          "predicate": "OFFERS",
+          "targetName": "Mattress cleaning",
+          "targetId": "e_004"
+        },
+        {
+          "predicate": "COVERS",
+          "targetName": "Domestic clients",
+          "targetId": "e_010"
+        },
+        {
+          "predicate": "COVERS",
+          "targetName": "Commercial clients",
+          "targetId": "e_011"
+        },
+        {
+          "predicate": "COVERS",
+          "targetName": "Glasgow and surrounding areas",
+          "targetId": "e_012"
+        }
+      ]
+    },
+    {
+      "entityId": "e_002",
+      "@type": "Service",
+      "name": "Carpet cleaning",
+      "description": "Professional deep-clean carpet and rug cleaning service using hot water extraction (steam cleaning), with stain treatment, deodorising and optional sanitisation; available for domestic and commercial clients starting from £50.",
+      "status": "active",
+      "hasChunks": [
+        {
+          "chunkId": "c_0002",
+          "text": "At the core of our operations is our comprehensive carpet cleaning expertise. Equipped with the latest industry-leading equipment and eco-friendly cleaning agents, our skilled technicians are dedicated to reviving the beauty and freshness of your carpets. Starting from just £50, our service is designed to be both comprehensive and efficient, ensuring minimal disruption to your daily routine.",
+          "sourceUrl": "https://www.back2newcarpetcleaning.co.uk/",
+          "pageTitle": "Back2New - Carpet / Upholstery Cleaning Glasgow",
+          "publisher": "Back2New",
+          "retrieved": "2026-06-28T18:52:02Z",
+          "contentType": "definition",
+          "audienceType": "general"
+        }
+      ],
+      "relations": [
+        {
+          "predicate": "INCLUDES",
+          "targetName": "Hot water extraction (steam cleaning)",
+          "targetId": "e_006"
+        },
+        {
+          "predicate": "INCLUDES",
+          "targetName": "Stain treatment",
+          "targetId": "e_007"
+        },
+        {
+          "predicate": "INCLUDES",
+          "targetName": "Deodorising",
+          "targetId": "e_008"
+        },
+        {
+          "predicate": "INCLUDES",
+          "targetName": "Sanitisation",
+          "targetId": "e_009"
+        },
+        {
+          "predicate": "IMPROVES",
+          "targetName": "Indoor allergen levels",
+          "targetId": "e_015",
+          "confidence": "declared"
+        }
+      ]
+    },
+    {
+      "entityId": "e_003",
+      "@type": "Service",
+      "name": "Sofa and chair cleaning",
+      "description": "Professional upholstery cleaning service for sofas and chairs, suitable for a wide range of fabrics including delicate and challenging materials; includes deep clean, stain treatment, deodorising and sanitisation, starting from £40.",
+      "status": "active",
+      "hasChunks": [
+        {
+          "chunkId": "c_0003",
+          "text": "Extend the life and vibrancy of your upholstered furniture with our professional sofa and chair cleaning services. Suitable for a wide range of fabrics, including delicate and challenging materials. Starting at just £40, our sofa and chair service will have your living room furniture looking and feeling brand new.",
+          "sourceUrl": "https://www.back2newcarpetcleaning.co.uk/",
+          "pageTitle": "Back2New - Carpet / Upholstery Cleaning Glasgow",
+          "publisher": "Back2New",
+          "retrieved": "2026-06-28T18:52:02Z",
+          "contentType": "definition",
+          "audienceType": "general"
+        }
+      ],
+      "relations": [
+        {
+          "predicate": "INCLUDES",
+          "targetName": "Stain treatment",
+          "targetId": "e_007"
+        },
+        {
+          "predicate": "INCLUDES",
+          "targetName": "Deodorising",
+          "targetId": "e_008"
+        },
+        {
+          "predicate": "INCLUDES",
+          "targetName": "Sanitisation",
+          "targetId": "e_009"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetName": "Domestic clients",
+          "targetId": "e_010",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "SUITED_FOR",
+          "targetName": "Commercial clients",
+          "targetId": "e_011",
+          "confidence": "declared"
+        }
+      ]
+    },
+    {
+      "entityId": "e_004",
+      "@type": "Service",
+      "name": "Mattress cleaning",
+      "description": "Professional mattress cleaning service that removes dust mites, allergens, bacteria, stains and odours; uses advanced cleaning equipment and experienced technicians; includes eco-friendly options and pet odour and stain treatment, starting from £40.",
+      "status": "active",
+      "hasChunks": [
+        {
+          "chunkId": "c_0004",
+          "text": "We provide a professional service that not only leaves your mattress visibly clean but also gets rid of germs and bacteria that you cannot see. Let us clear your bed of all those allergens, dust mites, and invisible grime that could be affecting your health and sleep quality. Priced from £40 and upwards, our mattress cleaning service ensures your bed is a clean, comfortable, and welcoming place to rest.",
+          "sourceUrl": "https://www.back2newcarpetcleaning.co.uk/mattress-cleaning",
+          "pageTitle": "Mattress Cleaning Services in Glasgow - Back2New",
+          "publisher": "Back2New",
+          "retrieved": "2026-06-28T18:52:02Z",
+          "contentType": "definition",
+          "audienceType": "general"
+        }
+      ],
+      "relations": [
+        {
+          "predicate": "INCLUDES",
+          "targetName": "Stain treatment",
+          "targetId": "e_007"
+        },
+        {
+          "predicate": "INCLUDES",
+          "targetName": "Deodorising",
+          "targetId": "e_008"
+        },
+        {
+          "predicate": "INCLUDES",
+          "targetName": "Sanitisation",
+          "targetId": "e_009"
+        },
+        {
+          "predicate": "IMPROVES",
+          "targetName": "Indoor allergen levels",
+          "targetId": "e_015",
+          "confidence": "declared"
+        },
+        {
+          "predicate": "IMPROVES",
+          "targetName": "Sleep quality",
+          "targetId": "e_016",
+          "confidence": "declared"
+        }
+      ]
+    },
+    {
+      "entityId": "e_005",
+      "@type": "Service",
+      "name": "Pet cleaning package",
+      "description": "A specialist add-on package available for carpet, sofa and mattress cleaning that targets pet odours, bacteria and stains left by animals; uses targeted products and techniques to eliminate pet-related odours and restore freshness.",
+      "status": "active",
+      "hasChunks": [
+        {
+          "chunkId": "c_0005",
+          "text": "For pet owners, our pet odour and stain treatment tackles the tough spots and smells that beloved animals can leave behind. Our experienced technicians in Glasgow are equipped with great products and techniques to eliminate pet-related odours and stains, restoring the freshness of your mattress.",
+          "sourceUrl": "https://www.back2newcarpetcleaning.co.uk/mattress-cleaning",
+          "pageTitle": "Mattress Cleaning Services in Glasgow - Back2New",
+          "publisher": "Back2New",
+          "retrieved": "2026-06-28T18:52:02Z",
+          "contentType": "definition",
+          "audienceType": "general"
+        }
+      ],
+      "relations": [
+        {
+          "predicate": "PART_OF",
+          "targetName": "Carpet cleaning",
+          "targetId": "e_002"
+        },
+        {
+          "predicate": "PART_OF",
+          "targetName": "Sofa and chair cleaning",
+          "targetId": "e_003"
+        },
+        {
+          "predicate": "PART_OF",
+          "targetName": "Mattress cleaning",
+          "targetId": "e_004"
+        }
+      ]
+    },
+    {
+      "entityId": "e_006",
+      "@type": "Methodology",
+      "name": "Hot water extraction (steam cleaning)",
+      "description": "The primary professional carpet cleaning method used by Back2New; a powerful machine sprays a heated, water-based cleaning solution into the carpet followed by powerful suction that extracts the dirty solution along with loosened dirt and debris, leaving minimal residual moisture.",
+      "status": "active",
+      "hasChunks": [
+        {
+          "chunkId": "c_0006",
+          "text": "The primary carpet cleaning method used by professionals is hot water extraction, also known as steam cleaning. This process involves using a powerful machine that sprays a heated, water-based cleaning solution into the carpet, followed by powerful suction that extracts the dirty solution, along with any loosened dirt and debris. Our hot water extraction method is highly effective at removing deep-seated contaminants, as the heat helps to lift and dissolve even the most stubborn stains.",
+          "sourceUrl": "https://www.back2newcarpetcleaning.co.uk/",
+          "pageTitle": "Back2New - Carpet / Upholstery Cleaning Glasgow",
+          "publisher": "Back2New",
+          "retrieved": "2026-06-28T18:52:02Z",
+          "contentType": "procedure",
+          "audienceType": "general"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entityId": "e_007",
+      "@type": "Service",
+      "name": "Stain treatment",
+      "description": "Targeted spot and stain treatment applied during the cleaning process using specialised solutions to break down and remove stubborn stains from carpets, upholstery and mattresses caused by food, ink, pets and more.",
+      "status": "active",
+      "hasChunks": [
+        {
+          "chunkId": "c_0007",
+          "text": "Next, we apply a specialised pre-treatment solution to the carpet. This solution helps to break down and loosen embedded dirt, grease, and other stubborn stains. The solution is then agitated using a specialised wand or brush, which helps to work the cleaning agents deep into the carpet fibers.",
+          "sourceUrl": "https://www.back2newcarpetcleaning.co.uk/",
+          "pageTitle": "Back2New - Carpet / Upholstery Cleaning Glasgow",
+          "publisher": "Back2New",
+          "retrieved": "2026-06-28T18:52:02Z",
+          "contentType": "procedure",
+          "audienceType": "general"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entityId": "e_008",
+      "@type": "Service",
+      "name": "Deodorising",
+      "description": "A deodorising treatment applied to carpets, upholstery and mattresses to eliminate unpleasant odours and leave fabrics smelling clean and fresh; included as standard across all Back2New cleaning services.",
+      "status": "active",
+      "hasChunks": [
+        {
+          "chunkId": "c_0008",
+          "text": "Deodorizing treatment to leave your carpets smelling clean and fresh. Deodorizing to eliminate unpleasant odours and leave a fresh, rejuvenated scent.",
+          "sourceUrl": "https://www.back2newcarpetcleaning.co.uk/",
+          "pageTitle": "Back2New - Carpet / Upholstery Cleaning Glasgow",
+          "publisher": "Back2New",
+          "retrieved": "2026-06-28T18:52:02Z",
+          "contentType": "definition",
+          "audienceType": "general"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entityId": "e_009",
+      "@type": "Service",
+      "name": "Sanitisation",
+      "description": "An optional sanitisation treatment applied to carpets, upholstery and mattresses to eliminate bacteria, allergens and odours; cleaning products are child-friendly and pet-safe, removing 99.9% of germs.",
+      "status": "active",
+      "hasChunks": [
+        {
+          "chunkId": "c_0009",
+          "text": "Our detergents are child friendly and fine for the pets and remove 99.9% of germs. Sanitization to eliminate bacteria, allergens, and odours. Sanitization to reduce the presence of allergens and bacteria in the fabric.",
+          "sourceUrl": "https://www.back2newcarpetcleaning.co.uk/",
+          "pageTitle": "Back2New - Carpet / Upholstery Cleaning Glasgow",
+          "publisher": "Back2New",
+          "retrieved": "2026-06-28T18:52:02Z",
+          "contentType": "definition",
+          "audienceType": "general"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entityId": "e_010",
+      "@type": "Taxonomy",
+      "name": "Domestic clients",
+      "description": "Homeowners, renters and landlords across Glasgow and surrounding areas who use Back2New for regular cleaning and end-of-tenancy cleaning of carpets, upholstery and mattresses.",
+      "status": "active",
+      "hasChunks": [
+        {
+          "chunkId": "c_0010",
+          "text": "It's not only homeowners, renters and landlords that use the cleaning services for regular cleaning and end of tenancy around Glasgow. We provide our service to all kinds of businesses too.",
+          "sourceUrl": "https://www.back2newcarpetcleaning.co.uk/",
+          "pageTitle": "Back2New - Carpet / Upholstery Cleaning Glasgow",
+          "publisher": "Back2New",
+          "retrieved": "2026-06-28T18:52:02Z",
+          "contentType": "definition",
+          "audienceType": "general"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entityId": "e_011",
+      "@type": "Taxonomy",
+      "name": "Commercial clients",
+      "description": "Businesses including offices, cafes, retirement homes and commercial properties across Glasgow and surrounding areas that use Back2New for professional carpet and upholstery cleaning.",
+      "status": "active",
+      "hasChunks": [
+        {
+          "chunkId": "c_0011",
+          "text": "We provide a quality, reliable, friendly service to houses, flats, retirement homes, offices, cafes and commercial properties in Glasgow and the surrounding towns in the Greater Glasgow area.",
+          "sourceUrl": "https://www.back2newcarpetcleaning.co.uk/",
+          "pageTitle": "Back2New - Carpet / Upholstery Cleaning Glasgow",
+          "publisher": "Back2New",
+          "retrieved": "2026-06-28T18:52:02Z",
+          "contentType": "definition",
+          "audienceType": "general"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entityId": "e_012",
+      "@type": "Place",
+      "name": "Glasgow and surrounding areas",
+      "description": "The primary service geography for Back2New, covering Glasgow city centre, all Glasgow districts, and surrounding towns including Stirling, Airdrie, Bellshill, Bishopbriggs, Blantyre, Coatbridge, Cumbernauld, East Kilbride, Hamilton, Motherwell, Paisley and Wishaw.",
+      "sameAs": "https://www.wikidata.org/wiki/Q4093",
+      "status": "active",
+      "hasChunks": [
+        {
+          "chunkId": "c_0012",
+          "text": "Back2New provide Carpet, Sofa and Mattress cleaning in Glasgow, Stirling and surrounding areas. We also service Airdrie, Bellshill, Bishopbriggs, Blantyre, Coatbridge, Cumbernauld, Denny, East Kilbride, Hamilton, Motherwell, Paisley, Stirling, Wishaw and more places!",
+          "sourceUrl": "https://www.back2newcarpetcleaning.co.uk/",
+          "pageTitle": "Back2New - Carpet / Upholstery Cleaning Glasgow",
+          "publisher": "Back2New",
+          "retrieved": "2026-06-28T18:52:02Z",
+          "contentType": "definition",
+          "audienceType": "general"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entityId": "e_013",
+      "@type": "Concept",
+      "name": "End-of-tenancy cleaning",
+      "description": "A professional clean carried out at the end of a rental tenancy to restore carpets and upholstery to a suitable condition; used by both renters and landlords in Glasgow who require a high-standard clean before a property changeover.",
+      "sameAs": "https://www.wikidata.org/wiki/Q97360765",
+      "status": "active",
+      "hasChunks": [
+        {
+          "chunkId": "c_0013",
+          "text": "It's not only homeowners, renters and landlords that use the cleaning services for regular cleaning and end of tenancy around Glasgow.",
+          "sourceUrl": "https://www.back2newcarpetcleaning.co.uk/",
+          "pageTitle": "Back2New - Carpet / Upholstery Cleaning Glasgow",
+          "publisher": "Back2New",
+          "retrieved": "2026-06-28T18:52:02Z",
+          "contentType": "definition",
+          "audienceType": "general"
+        }
+      ],
+      "relations": [
+        {
+          "predicate": "RELATES_TO",
+          "targetName": "Carpet cleaning",
+          "targetId": "e_002"
+        }
+      ]
+    },
+    {
+      "entityId": "e_014",
+      "@type": "Concept",
+      "name": "Dust mites and allergens",
+      "description": "Microscopic creatures and airborne particles that accumulate in carpets, upholstery and mattresses; dust mites feed on dead skin cells and thrive in warm environments, and along with other allergens can provoke allergies, skin irritations and respiratory problems.",
+      "sameAs": "https://www.wikidata.org/wiki/Q235893",
+      "status": "active",
+      "hasChunks": [
+        {
+          "chunkId": "c_0014",
+          "text": "Dust mites, microscopic creatures feeding on dead skin cells, thrive in the warm environment beds provide. These mites, along with other allergens and bacteria, can accumulate to levels that provoke health issues, particularly in those with allergies or respiratory conditions.",
+          "sourceUrl": "https://www.back2newcarpetcleaning.co.uk/mattress-cleaning",
+          "pageTitle": "Mattress Cleaning Services in Glasgow - Back2New",
+          "publisher": "Back2New",
+          "retrieved": "2026-06-28T18:52:02Z",
+          "contentType": "definition",
+          "audienceType": "general"
+        }
+      ],
+      "relations": [
+        {
+          "predicate": "LEADS_TO",
+          "targetName": "Indoor allergen levels",
+          "targetId": "e_015",
+          "confidence": "declared"
+        }
+      ]
+    },
+    {
+      "entityId": "e_015",
+      "@type": "Concept",
+      "name": "Indoor allergen levels",
+      "description": "The concentration of allergens, bacteria, dust mites and other irritants in the indoor environment; professional cleaning of carpets, upholstery and mattresses reduces allergen levels and helps create a healthier indoor environment.",
+      "status": "active",
+      "hasChunks": [
+        {
+          "chunkId": "c_0015",
+          "text": "Professional cleaning removes dirt, dust, pollen, and many allergens trapped within the carpet fibres, helping to create a cleaner indoor environment. Dust mite reduction: Regular cleaning drastically lowers the population of dust mites and other allergens.",
+          "sourceUrl": "https://www.back2newcarpetcleaning.co.uk/",
+          "pageTitle": "Back2New - Carpet / Upholstery Cleaning Glasgow",
+          "publisher": "Back2New",
+          "retrieved": "2026-06-28T18:52:02Z",
+          "contentType": "definition",
+          "audienceType": "general"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entityId": "e_016",
+      "@type": "Concept",
+      "name": "Sleep quality",
+      "description": "The quality of restorative sleep; directly affected by mattress hygiene, as a clean mattress free from dust mites, allergens and bacteria can be the difference between tossing and turning and achieving deep, restorative sleep.",
+      "sameAs": "https://www.wikidata.org/wiki/Q7536062",
+      "status": "active",
+      "hasChunks": [
+        {
+          "chunkId": "c_0016",
+          "text": "There's more to a good night's sleep than just comfort. A clean mattress can be the difference between tossing and turning and achieving deep, restorative sleep. By eliminating irritants, our professional mattress cleaning services contribute not only to better sleep but to your overall well-being, ensuring that you wake up refreshed and ready to take on the day.",
+          "sourceUrl": "https://www.back2newcarpetcleaning.co.uk/mattress-cleaning",
+          "pageTitle": "Mattress Cleaning Services in Glasgow - Back2New",
+          "publisher": "Back2New",
+          "retrieved": "2026-06-28T18:52:02Z",
+          "contentType": "definition",
+          "audienceType": "general"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "entityId": "e_017",
+      "@type": "ProprietaryTerm",
+      "name": "Cleaning gift card",
+      "description": "A purchasable gift card sold by Back2New that can be redeemed against any of their services - carpet, sofa or mattress cleaning - usable by the buyer or gifted to others; purchasable via the Back2New online store.",
+      "canonicalLabel": "gift voucher",
+      "status": "active",
+      "hasChunks": [
+        {
+          "chunkId": "c_0017",
+          "text": "Don't forget that you can buy a gift card for yourself or a loved one that can be used for any of our services. We accept all debit and credit cards in the United Kingdom.",
+          "sourceUrl": "https://www.back2newcarpetcleaning.co.uk/",
+          "pageTitle": "Back2New - Carpet / Upholstery Cleaning Glasgow",
+          "publisher": "Back2New",
+          "retrieved": "2026-06-28T18:52:02Z",
+          "contentType": "definition",
+          "audienceType": "general"
+        }
+      ],
+      "relations": [
+        {
+          "predicate": "RELATES_TO",
+          "targetName": "Carpet cleaning",
+          "targetId": "e_002"
+        },
+        {
+          "predicate": "RELATES_TO",
+          "targetName": "Sofa and chair cleaning",
+          "targetId": "e_003"
+        },
+        {
+          "predicate": "RELATES_TO",
+          "targetName": "Mattress cleaning",
+          "targetId": "e_004"
+        }
+      ]
+    },
+    {
+      "entityId": "e_018",
+      "@type": "Methodology",
+      "name": "Eco-friendly cleaning",
+      "description": "Sustainable cleaning solutions used by Back2New that are as effective as traditional methods but without harsh chemicals; safe for children and pets once dry, and used across carpet, upholstery and mattress cleaning services.",
+      "status": "active",
+      "hasChunks": [
+        {
+          "chunkId": "c_0018",
+          "text": "Our eco-friendly cleaning options utilize sustainable cleaning solutions that are just as effective as traditional methods but without the harsh chemicals. Rest easy knowing that your mattress cleaning service in Glasgow is safe for you and the planet.",
+          "sourceUrl": "https://www.back2newcarpetcleaning.co.uk/mattress-cleaning",
+          "pageTitle": "Mattress Cleaning Services in Glasgow - Back2New",
+          "publisher": "Back2New",
+          "retrieved": "2026-06-28T18:52:02Z",
+          "contentType": "definition",
+          "audienceType": "general"
+        }
+      ],
+      "relations": [
+        {
+          "predicate": "PART_OF",
+          "targetName": "Carpet cleaning",
+          "targetId": "e_002"
+        },
+        {
+          "predicate": "PART_OF",
+          "targetName": "Mattress cleaning",
+          "targetId": "e_004"
+        }
+      ]
+    }
+  ]
+}
